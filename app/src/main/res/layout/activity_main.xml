@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/i2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Calculate percentage"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/etnum1"
+        android:hint="Enter marks of subject1"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/etnum2"
+        android:hint="Enter marks of subject2"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/etnum3"
+        android:hint="Enter marks of subject3"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Calculate"
+        android:layout_gravity="center"
+        android:id="@+id/btn"/>
+
+</LinearLayout>
